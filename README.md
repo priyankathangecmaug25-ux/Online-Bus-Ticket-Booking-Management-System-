@@ -46,7 +46,5 @@ npm install
 
 npm start
 
-# 👨‍💻 Developer
 
-# Vedant Padave
-Enthusiastic full-stack developer passionate about building real-world web applications.
+
