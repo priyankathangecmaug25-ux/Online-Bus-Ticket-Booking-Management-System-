@@ -1,0 +1,60 @@
+/* src/styles.css */
+body { background: #f8f9fa; }
+.card { border-radius: 12px; }
+@media (max-width: 576px) {
+  .navbar .nav-link { font-size: 14px; }
+}
+.home-banner {
+  position: relative;
+  background-image: url("/src/assets/images/busBanner.webp"); 
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 10px;
+  color: #f6f2f3;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.banner-content {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.banner-content h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+.search-box {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+
+max-width: 900px;
+  margin: 0 auto;
+}
+
+.search-btn {
+  background-color: #d32f2f;
+  border: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.search-btn:hover {
+  background-color: #b71c1c;
+}

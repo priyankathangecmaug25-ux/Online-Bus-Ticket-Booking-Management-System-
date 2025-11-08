@@ -1,0 +1,14 @@
+.brand-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+.nav-link-custom {
+  transition: transform 0.2s ease, color 0.2s ease;
+  font-weight: 500;
+}
+
+.nav-link-custom:hover {
+  transform: scale(1.12);
+  color: #9C27B0 !important; 
+}
